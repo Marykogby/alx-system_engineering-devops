@@ -1,2 +1,3 @@
 #!/bin/bash
 -en "" | tail --lines=1 iacta >> iacta 
+cut -d: -f1,6 /etc/passwd | sort
